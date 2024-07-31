@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Home Page Section */
+#home-page {
+    background-color: #803333;
+    padding: 50px 0;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/* Data Plan Section */
+#data-plan {
+    background-color: #2a1e1e;
+    padding: 30px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ed8787;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+/* Flex Cards Section */
+#flex-cards {
+    background-color: #958e8e;
+    padding: 30px 0;
+}
+
+.flex-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.flex-card {
+    background-color: #1b0505;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.flex-card h3 {
+    margin: 0;
+}
+
+.flex-card p {
+    margin-top: 10px;
+}
